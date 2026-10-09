@@ -4,7 +4,7 @@ const app = express()
 const PORT = process.env.PORT || 5000
 
 const corsOptions = {
-  origin: ["https://projeto-simples-front2026-tau.vercel.app", 
+  origin: ["https://projeto-simples-front2026-six.vercel.app/", 
   "https://effective-adventure-x5p7jjpvggvq3pv79-8080.app.github.dev"],
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: "Content-Type,Authorization",
